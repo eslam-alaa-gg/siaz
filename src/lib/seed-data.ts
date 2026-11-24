@@ -21,8 +21,8 @@ type SeedProduct = {
 
 // Curated winter product photography. Each product has its own distinct image.
 const photos = {
-  woolCoat: "https://www.retouchingcloud.com/storage/images/services/meta_images/Ghost_mannequin_B7.jpg",
-  pufferNavy: "https://cdn.pathedits.com/Images/pages/ghost-mannequin/hero-gallery/red-puffer-jacket-ghost-mannequin-edited.jpg?h=400&scale.option=fill&w=0",
+  woolCoat: "https://media.etmall.com.tw/nximg/00100002532/100002532632/20da20d0-75f7-4c69-86ca-c4e827bc49d6.jpg",
+  pufferNavy: "https://klink-gruppe.de/cdn/shop/files/Daunenjacke_20fecd09-d0b6-455b-a130-575d1c2b34e8.png?v=1773654723&width=1214",
   parkaOlive: "https://st4.depositphotos.com/1226172/31261/i/450/depositphotos_312610298-stock-photo-kids-blue-hooded-warm-sport.jpg",
   parkaNavy: "https://www.bigagnes.com/cdn/shop/files/wirehand-parka-brown-sugar-closed.png?v=1724794329",
   cardiganGrey: "https://jbpress.ismcdn.jp/mwimgs/7/5/900mw/img_75a0bb3c1d4ff4446e0545844ac40d611354130.jpg",
@@ -34,7 +34,7 @@ const photos = {
   pufferBlack: "https://www.skhoop.us/cdn/shop/files/skhoop-winter-millie-jacket-navy_2048x.png?v=1759007797",
   jacketNavy: "https://www.jingoclothing.co.uk/cdn/shop/files/N40-0801-1034_01packshot_2001x.png?v=1727696044",
   camelSet: "https://sportscraft.sirv.com/products/120588/120588_camel_00.jpg?h=1000&w=800",
-  woolLook: "https://cdn11.bigcommerce.com/s-9j1btc5pn3/images/stencil/1280x1280/products/227/1817/5037923026355__29758.1644349827.jpg",
+  woolLook: "https://www.img-2-img.com/imgs/product-retouch/flat-lay-mannequin/2.png",
   winterModel: "https://shop.silver-creek.com/cdn/shop/files/quiltedtheoshirtjacket.png?v=1764612476&width=900",
 };
 
