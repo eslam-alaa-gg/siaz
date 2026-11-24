@@ -31,6 +31,7 @@ export function ProductCard({
   const [quick, setQuick] = useState(false);
   const { add, setCartOpen } = useCart();
   const color = product.colors[ci];
+  const fullFrameImage = ["winter-layered-look", "heritage-puffer-jacket", "winter-wool-overcoat"].includes(product.slug);
   const soldOut = Object.values(color.stock).every((q) => q <= 0);
 
   function quickAdd(size: string) {
@@ -68,7 +69,7 @@ export function ProductCard({
               fill
               sizes={sizes}
               priority={priority && i === 0}
-              className={`object-cover object-top transition-[opacity,transform] duration-700 ease-[var(--ease-soft)] group-hover:scale-[1.035] ${
+              className={`${fullFrameImage ? "object-contain p-4" : "object-cover object-top"} transition-[opacity,transform] duration-700 ease-[var(--ease-soft)] group-hover:scale-[1.035] ${
                 i === ci ? "opacity-100" : "opacity-0"
               }`}
             />
