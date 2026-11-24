@@ -32,6 +32,7 @@ export function ProductDetail({ product }: { product: P }) {
   const { add, setCartOpen, items } = useCart();
 
   const color = product.colors[ci];
+  const fullFrameImage = ["winter-layered-look", "heritage-puffer-jacket", "winter-wool-overcoat"].includes(product.slug);
   const colorTotal = SIZES.reduce((a, s) => a + (color.stock[s] ?? 0), 0);
   const available = size ? (color.stock[size] ?? 0) : 0;
   const inBag = size ? (items.find((i) => i.colorId === color.id && i.size === size)?.qty ?? 0) : 0;
@@ -104,7 +105,7 @@ export function ProductDetail({ product }: { product: P }) {
                 fill
                 priority
                 sizes="(min-width:1024px) 55vw, 100vw"
-                className="object-cover object-top"
+                className={fullFrameImage ? "object-contain p-5 md:p-8" : "object-cover object-top"}
               />
             </motion.div>
           </AnimatePresence>
