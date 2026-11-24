@@ -15,25 +15,25 @@ export const COLLECTIONS = [
     slug: "shadow",
     name: "Shadow Outerwear",
     blurb: "Technical parkas, padded jackets and utility layers in deep winter tones.",
-    image: "https://torontolife.mblycdn.com/uploads/tl/2023/01/WINTER-JACKETS-HERO-IMAGE.png",
+    image: "https://store.staticbloom.co.jp/cdn/shop/files/static-mata-jacket-onyx_1000x.jpg?v=1703639511",
   },
   {
     slug: "essentials",
     name: "Winter Essentials",
     blurb: "Substantial knitwear and warm everyday layers in quiet neutral shades.",
-    image: "https://mikuta.com/cdn/shop/files/mikuta-the-dark-grey-long-knitted-cardigan-the-black-cropped-leather-pants-the-dark-dry-cotton-vintage-t-shirt-the-black-laced-leather-boots-paris-fw25-lara1.jpg?v=1763410866&width=2560",
+    image: "https://ignewsimg.s3.ap-northeast-1.wasabisys.com/CGpTlFPBmOo",
   },
   {
     slug: "tailored-ease",
     name: "Cold Weather Tailoring",
     blurb: "Soft wool textures, refined coats and considered winter silhouettes.",
-    image: "https://cdn.laredoute.com/blogs/images/6/24901553504ab.jpg",
+    image: "https://images.squarespace-cdn.com/content/v1/67b8ba95da76453e16343fd2/31487f7e-00ad-4d35-a91b-b5b893f3a9d6/Natalino%2B5th%2BNovember%2B2024-1.jpg",
   },
   {
     slug: "street",
     name: "Winter Street",
     blurb: "Relaxed hoodies, utility layers and modern padded pieces.",
-    image: "https://thevinylhouse.co.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/1f800a8a1524bc6e38dd42b2799e8bdd.jpg",
+    image: "https://www.bigagnes.com/cdn/shop/files/wirehand-parka-brown-sugar-closed.png?v=1724794329",
   },
 ] as const;
 
