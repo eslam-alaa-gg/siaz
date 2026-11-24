@@ -1,38 +1,39 @@
 export const SIZES = ["XS", "S", "M", "L", "XL"] as const;
 
 export const CATEGORIES = [
-  { slug: "t-shirts", label: "T-Shirts" },
+  { slug: "coats", label: "Coats" },
+  { slug: "jackets", label: "Jackets" },
+  { slug: "knitwear", label: "Knitwear" },
   { slug: "hoodies", label: "Hoodies" },
   { slug: "sweatshirts", label: "Sweatshirts" },
-  { slug: "shirts", label: "Shirts" },
-  { slug: "jackets", label: "Jackets" },
-  { slug: "trousers", label: "Trousers" },
+  { slug: "shirts", label: "Overshirts" },
+  { slug: "trousers", label: "Winter Looks" },
 ] as const;
 
 export const COLLECTIONS = [
   {
     slug: "shadow",
-    name: "Shadow Series",
-    blurb: "Technical outerwear and utility in washed black and olive.",
-    image: "/images/products/bomber-black.jpg",
+    name: "Shadow Outerwear",
+    blurb: "Technical parkas, padded jackets and utility layers in deep winter tones.",
+    image: "https://inc.nobis.com/cdn/shop/files/Heritage-navy-F3.png?v=1750056790&width=2890",
   },
   {
     slug: "essentials",
-    name: "Everyday Essentials",
-    blurb: "Heavyweight basics, cut slightly large and made to last.",
-    image: "/images/products/tee-black.jpg",
+    name: "Winter Essentials",
+    blurb: "Substantial knitwear and warm everyday layers in quiet neutral shades.",
+    image: "https://enviktos.com/cdn/shop/files/cardigan1.png?crop=center&height=856&v=1760067516&width=857",
   },
   {
     slug: "tailored-ease",
-    name: "Tailored Ease",
-    blurb: "Pleated trousers, linen and stone-toned layers.",
-    image: "/images/products/trouser-stone.jpg",
+    name: "Cold Weather Tailoring",
+    blurb: "Soft wool textures, refined coats and considered winter silhouettes.",
+    image: "https://metismaven.com/images/cover-premium-wool-winter-2025.jpg",
   },
   {
     slug: "street",
-    name: "Studio Street",
-    blurb: "Relaxed streetwear essentials with quiet attitude.",
-    image: "/images/products/hoodie-black.jpg",
+    name: "Winter Street",
+    blurb: "Relaxed hoodies, utility layers and modern padded pieces.",
+    image: "https://cdn.shopify.com/s/files/1/0930/0351/4203/files/Short_Supply_Winter_Blog_3.webp?v=1768917183",
   },
 ] as const;
 
