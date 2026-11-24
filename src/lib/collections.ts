@@ -15,25 +15,25 @@ export const COLLECTIONS = [
     slug: "shadow",
     name: "Shadow Outerwear",
     blurb: "Technical parkas, padded jackets and utility layers in deep winter tones.",
-    image: "https://inc.nobis.com/cdn/shop/files/Heritage-navy-F3.png?v=1750056790&width=2890",
+    image: "https://torontolife.mblycdn.com/uploads/tl/2023/01/WINTER-JACKETS-HERO-IMAGE.png",
   },
   {
     slug: "essentials",
     name: "Winter Essentials",
     blurb: "Substantial knitwear and warm everyday layers in quiet neutral shades.",
-    image: "https://enviktos.com/cdn/shop/files/cardigan1.png?crop=center&height=856&v=1760067516&width=857",
+    image: "https://mikuta.com/cdn/shop/files/mikuta-the-dark-grey-long-knitted-cardigan-the-black-cropped-leather-pants-the-dark-dry-cotton-vintage-t-shirt-the-black-laced-leather-boots-paris-fw25-lara1.jpg?v=1763410866&width=2560",
   },
   {
     slug: "tailored-ease",
     name: "Cold Weather Tailoring",
     blurb: "Soft wool textures, refined coats and considered winter silhouettes.",
-    image: "https://metismaven.com/images/cover-premium-wool-winter-2025.jpg",
+    image: "https://cdn.laredoute.com/blogs/images/6/24901553504ab.jpg",
   },
   {
     slug: "street",
     name: "Winter Street",
     blurb: "Relaxed hoodies, utility layers and modern padded pieces.",
-    image: "https://cdn.shopify.com/s/files/1/0930/0351/4203/files/Short_Supply_Winter_Blog_3.webp?v=1768917183",
+    image: "https://thevinylhouse.co.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/1f800a8a1524bc6e38dd42b2799e8bdd.jpg",
   },
 ] as const;
 
