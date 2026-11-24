@@ -21,21 +21,21 @@ type SeedProduct = {
 
 // Curated winter product photography. Each product has its own distinct image.
 const photos = {
-  woolLook: "https://winkandwear.com/assets/Fashion_Blog-1-DmR_EYSF.webp",
-  winterEdit: "https://cdn.shopify.com/s/files/1/0930/0351/4203/files/Short_Supply_Winter_Blog_3.webp?v=1768917183",
-  pufferNavy: "https://cdn.shopify.com/s/files/1/0218/9988/files/w_aura_puffer_te_01.jpg?v=1753921913",
-  cardiganBrown: "https://lucerti.com/cdn/shop/files/20251230_1244_RedKnitCardigan_remix_01kdpwjc2eebjbw8v0jg09yepy_1.jpg?v=1767281103&width=1080",
-  parkaOlive: "https://www.img-2-img.com/imgs/product-retouch/flat-lay-mannequin/2.png",
-  pufferRose: "https://p.potaufeu.asahi.com/5764-p/picture/29064387/13c429aab311f365bba250aa60447c28_640px.jpg",
-  woolCoat: "https://metismaven.com/images/cover-premium-wool-winter-2025.jpg",
-  camelSet: "https://images.fotoklik.pl/2026/04/750c1a32-31f7-4a48-9a3c-df9e60d54b6a.webp",
-  cardiganGrey: "https://enviktos.com/cdn/shop/files/cardigan1.png?crop=center&height=856&v=1760067516&width=857",
-  cardiganStone: "https://gentedimare.jp/html/upload/save_image/0918141542_66ea61fe8ff48.jpg",
-  parkaNavy: "https://inc.nobis.com/cdn/shop/files/Heritage-navy-F3.png?v=1750056790&width=2890",
-  jacketNavy: "https://ironandresin.eu/cdn/shop/files/HelterJacketBlue-Front_1024x1024.jpg?v=1751024520",
-  cardiganCable: "https://i5.walmartimages.com/asr/ff4ab00b-d7f8-48af-af19-bf50f998ce38.5a7c75a81fdc11e08b547901fe718064.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768",
-  pufferBlack: "https://shopping.c.yimg.jp/lib/arcade/c25310-5.jpg",
-  winterModel: "https://unsplash.com/photos/iz9tP0Loa9g/download?force=true",
+  woolCoat: "https://cdn.laredoute.com/blogs/images/6/24901553504ab.jpg",
+  pufferNavy: "https://torontolife.mblycdn.com/uploads/tl/2023/01/WINTER-JACKETS-HERO-IMAGE.png",
+  parkaOlive: "https://thevinylhouse.co.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/1f800a8a1524bc6e38dd42b2799e8bdd.jpg",
+  parkaNavy: "https://static.msscdn.net/static/global/front/promotion/fromseoul-winter-22/assets/750_winter_KV.jpg",
+  cardiganGrey: "https://mikuta.com/cdn/shop/files/mikuta-the-dark-grey-long-knitted-cardigan-the-black-cropped-leather-pants-the-dark-dry-cotton-vintage-t-shirt-the-black-laced-leather-boots-paris-fw25-lara1.jpg?v=1763410866&width=2560",
+  cardiganBrown: "https://images.elle.com.br/2024/07/casaco-de-trico-alexachung-620x775.jpg",
+  cardiganCable: "https://cdn.clothbase.com/uploads/24a6420b-959f-451b-82a1-97d8de3f3976/P00851036_b1.jpg",
+  winterEdit: "https://media.trilltrill.jp/articles/4555360/featured-image.4e50e85d1afb8feef86fda7e1ec2ad6e?w=1200",
+  cardiganStone: "https://sportscraft.sirv.com/products/120588/120588_camel_00.jpg?h=1000&w=800",
+  pufferRose: "https://www.elleman.vn/app/uploads/2022/01/05/209835/ao-khoac-phao-nam_cover_elleman.jpg",
+  pufferBlack: "https://opis-cdn.tinkoffjournal.ru/mercury/01-down-jacket-trends-winter.jpg",
+  jacketNavy: "https://wimg.dt.co.kr/news/legacy/contents/images/201801/2018010302109923812002.jpg",
+  camelSet: "https://media.vogue.co.uk/photos/67b5d00a75b39b6672e6b50f/1%3A1/w_1600%2Cc_limit/JD%2520CAROUSEL.png",
+  woolLook: "https://www.denimjeansobserver.com/mag/designer-denim-jeans-fashion/2021-2022/fw/brands-b/brunello-cucinelli-2021-2022-fall-winter-womens-milan-fashion-week-knit-crochet-alpaca-mohair-cardigan-denim-jeans-observer-05.jpg",
+  winterModel: "https://www.marinelayer.com/cdn/shop/files/H1_W_Fiorella_Cardigan_Neutral_Fair_Isle_H1_W_Colette_Belted_Wool_Coat_Espresso_Heather_8806-Final-web.jpg?v=1763058493",
 };
 
 export const SEED_PRODUCTS: SeedProduct[] = [
