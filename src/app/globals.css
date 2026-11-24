@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ivory: #f4f1ea;
+  --color-soft: #fafaf8;
+  --color-charcoal: #252525;
+  --color-stone: #e6e2da;
+  --color-muted: #9c9a95;
+  --font-display: var(--font-space), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-dm-serif), ui-serif, Georgia, serif;
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-charcoal);
+  color: var(--color-ivory);
+}
+
+@layer components {
+  /* Transparent, fine-bordered pill buttons */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    border-radius: 9999px;
+    border: 1px solid rgb(37 37 37 / 0.28);
+    background: rgb(37 37 37 / 0.02);
+    padding: 0.8rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--color-charcoal);
+    backdrop-filter: blur(6px);
+    transition:
+      background-color 0.35s var(--ease-soft),
+      border-color 0.35s var(--ease-soft),
+      transform 0.2s var(--ease-soft),
+      color 0.35s var(--ease-soft);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .btn:hover {
+    background: rgb(37 37 37 / 0.07);
+    border-color: rgb(37 37 37 / 0.7);
+  }
+  .btn:active {
+    transform: scale(0.97);
+    background: rgb(37 37 37 / 0.12);
+  }
+  .btn:disabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  .btn-strong {
+    border-color: rgb(37 37 37 / 0.8);
+    background: rgb(37 37 37 / 0.05);
+  }
+  .btn-light {
+    color: var(--color-ivory);
+    border-color: rgb(244 241 234 / 0.4);
+    background: rgb(244 241 234 / 0.04);
+  }
+  .btn-light:hover {
+    background: rgb(244 241 234 / 0.14);
+    border-color: rgb(244 241 234 / 0.85);
+  }
+  .btn-light:active {
+    background: rgb(244 241 234 / 0.2);
+  }
+  .btn-sm {
+    padding: 0.55rem 1.05rem;
+    font-size: 0.74rem;
+  }
+
+  .field {
+    width: 100%;
+    border-radius: 9999px;
+    border: 1px solid rgb(37 37 37 / 0.18);
+    background: rgb(250 250 248 / 0.6);
+    padding: 0.85rem 1.25rem;
+    font-size: 0.9rem;
+    outline: none;
+    transition:
+      border-color 0.3s var(--ease-soft),
+      background-color 0.3s var(--ease-soft);
+  }
+  .field::placeholder {
+    color: var(--color-muted);
+  }
+  .field:focus {
+    border-color: rgb(37 37 37 / 0.7);
+    background: var(--color-soft);
+  }
+  textarea.field {
+    border-radius: 1.25rem;
+  }
+
+  .eyebrow {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
+  .link-underline {
+    position: relative;
+  }
+  .link-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s var(--ease-soft);
+  }
+  .link-underline:hover::after,
+  .link-underline[data-active="true"]::after {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
